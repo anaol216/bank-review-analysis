@@ -1,0 +1,37 @@
+# Core libraries
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+plotly==5.21.0
+
+# NLP / Sentiment Analysis
+nltk==3.8.1
+textblob==0.18.0
+wordcloud==1.9.3
+spacy==3.7.4
+
+# Time Series & Financial Analysis
+yfinance
+ta==0.11.0
+pynance==0.3.0
+
+# Technical Analysis
+ta-lib==0.6.3  # Use lowercase, install via wheel for Windows (see README or instructions)
+
+# Utilities
+jupyterlab==4.1.5
+ipykernel==6.29.4
+python-dotenv==1.0.1
+tqdm==4.66.2
+
+# Testing and CI/CD
+pytest==8.1.1
+flake8==7.0.0
+pre-commit==3.7.0
+
+# Optional for topic modeling (advanced)
+gensim==4.3.2
